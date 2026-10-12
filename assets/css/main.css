@@ -747,6 +747,22 @@ section,
   background-color: var(--accent-color);
 }
 
+.hero .social-links .appointment-button {
+  width: auto;
+  height: auto;
+  padding: 12px 24px;
+  border-radius: 50px;
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.hero .social-links .appointment-button:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
